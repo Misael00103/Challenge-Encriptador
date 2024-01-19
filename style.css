@@ -354,3 +354,11 @@ body {
     margin-right: -.5rem;
   }
 }
+
+footer {
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    color: var(--white);
+  }
