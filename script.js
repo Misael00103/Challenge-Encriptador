@@ -121,3 +121,42 @@ copyButton.addEventListener('click', () => {
   }, 2000);
 });
 
+var colorActual = ''; // Variable global para almacenar el color actual
+
+function cambiarFondo() {
+  // Si la variable colorActual está vacía, obtén el color actual
+  if (!colorActual) {
+    colorActual = window.getComputedStyle(document.body);
+  }
+
+  // Verifica si el fondo actual es blanco
+  var fondoBlanco = document.body.style.backgroundColor === 'rgb(255, 255, 255)';
+
+  // Cambia el fondo del cuerpo
+  document.body.style.backgroundColor = fondoBlanco ? '#20232a' : '#fff';
+
+  // Cambia el color del texto en todos los textareas
+  var textareas = document.querySelectorAll('textarea');
+  textareas.forEach(function (textarea) {
+    textarea.style.color = fondoBlanco ? '#fff' : '#20232a';
+  });
+
+  // Cambia el color de las tarjetas (puedes ajustar este selector según tu estructura HTML)
+  var tarjetas = document.querySelectorAll('.main__block1, .main__block2');
+  tarjetas.forEach(function (tarjeta) {
+    tarjeta.style.backgroundColor = fondoBlanco ? '#20232a' : '#fff';
+  });
+
+  var textareas = document.querySelectorAll('textarea');
+  textareas.forEach(function (textarea) {
+    textarea.style.color = fondoBlanco ? '#fff' : '#fff'; // Cambiado a negro si el fondo es blanco, blanco si el fondo es negro
+  });
+
+   var footerText = document.getElementById('footerText');
+  footerText.style.color = fondoBlanco ? '#fff' : '#20232a';
+
+  var parrafoText = document.getElementById('parrafoText');
+  parrafoText.style.color = fondoBlanco ? '#fff' : '#20232a';
+
+  
+}
