@@ -19,19 +19,20 @@
     <img src="./assets/Logo.svg">
   </header>
   <main class="main">
-
+   
     <!-- BLOQUE 1 -->
     <section class="main__block1">
       <textarea placeholder="Ingrese su texto aqui" id='texto' oninput="limpiarTexto(event)"></textarea>
 
       <article class="block1__aviso">
         <img src="./assets/Vector.svg" />
-        <p>Solo letras minusculas y sin acentos</p>
+        <p id="parrafoText">Solo letras minúsculas y sin acentos</p>
       </article>
 
       <div class="container-buttons">
         <button class="button button--secondary b2" id="decryptButton" onclick="start('decifrar')">Desencriptar</button>
         <button class="button b1" id="encryptButton" onclick="start('cifrar')">Encriptar</button>
+        <button class="button" onclick="cambiarFondo()">Cambiar Fondo</button>
       </div>
     </section>
 
@@ -41,8 +42,8 @@
 
         <article class="warning" id="warningSection">
           <img src="assets/Muñeco.svg" alt="">
-          <p>Ningun mensaje fue encontrado</p>
-          <span>Ingresa un texto de desees encriptar o desencriptar.</span>
+          <p>Ningún mensaje fue encontrado</p>
+          <span>Ingresa un texto que desees encriptar o desencriptar.</span>
         </article>
 
         <div class="resultados novisible" id="resultsSection">
@@ -54,10 +55,10 @@
         </div>
       </div>
     </section>
-     <footer>
+    <footer id="footerText">
         <p>&copy; 2024 <a href="https://portafolio-misael.netlify.app/" target="_blank">Misael Beriguete</a> Todos los derechos reservados.</p>
       </footer>
   </main>
 </body>
-
+<script src="script.js"></script>
 </html>
