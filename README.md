@@ -1,6 +1,13 @@
 <h1>Challenge Encriptador Alura</h1>
 Link:https://challengeencriptador.netlify.app/
-[image](https://github.com/Misael00103/Challenge-Encriptador/assets/68718644/69b38e0a-5fe9-46d5-87e6-18ed1e001f8c)
-[image](https://github.com/Misael00103/Challenge-Encriptador/assets/68718644/8663ced0-5710-4f54-bab8-7f0060ded5aa)
-[image](https://github.com/Misael00103/Challenge-Encriptador/assets/68718644/4196416a-a553-4780-8867-ed3eb4a99ade)
+
+![image](https://github.com/Misael00103/Challenge-Encriptador/assets/68718644/5e079fa8-b884-4125-bfd2-e0583d1a3f6a)
+
+![image](https://github.com/Misael00103/Challenge-Encriptador/assets/68718644/0764b88b-1a24-4ff9-a92a-b857f7349757)
+
+![image](https://github.com/Misael00103/Challenge-Encriptador/assets/68718644/1b409d47-8be7-4587-ab6e-391c8bbbf11e)
+
+![image](https://github.com/Misael00103/Challenge-Encriptador/assets/68718644/4ea4fc4f-ac3b-48a5-b5cc-ac6e82a00741)
+
+
 
