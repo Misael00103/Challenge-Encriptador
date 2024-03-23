@@ -363,3 +363,12 @@ footer {
     text-align: center;
     color: var(--white);
   }
+
+  a{
+    color: #61dafb;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: #d1d1d1;
+  }
